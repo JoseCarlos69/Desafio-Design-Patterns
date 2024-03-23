@@ -27,30 +27,18 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 | Entrada | Saída |
 | --- | --- |
-| 2 | 1 - Ada |
-| Ada | 2 - Linus |
-| Linus |  |
+| 2 |  |
+| Ada | 1 - Ada |
+| Linus | 2 - Linus |
+| 3 |  |
+| Grace | 1 - Grace |
+| Alan | 2 - Alan |
+| Steve | 3 - Steve |
+| 4 |  |
+| Tim | 1 - Tim |
+| Margaret | 2 - Margaret |
+| John | 3 - John |
+| Richard | 4 - Richard |
 
-Entrada	Saída
-2
-Ada
-Linus	1 - Ada
-2 - Linus
-3
-Grace
-Alan
-Steve	
-1 - Grace
-2 - Alan
-3 - Steve
-
-4
-Tim
-Margaret
-John
-Richard	1 - Tim
-2 - Margaret
-3 - John
-4 - Richard
-Nota:
+## Nota:
 A implementação do padrão Singleton traz uma abordagem centralizada, com uma única instância do gerenciador de entidades, favorecendo a consistência dos dados e facilitando o acesso global. Por outro lado, optar por não usar o padrão permite maior flexibilidade, possibilitando várias instâncias independentes. A escolha depende das demandas do projeto, design e manutenção. Isso garante adaptabilidade entre diferentes linguagens ou contextos.
