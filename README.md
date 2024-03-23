@@ -7,12 +7,12 @@ Neste desafio, você deve criar um sistema de gerenciamento de usuários que per
 
 1. Crie uma classe User com os seguintes atributos: id (inteiro) e name (string).
 2. Implemente uma classe UserManager que siga o padrão Singleton. Esta classe deve possuir as seguintes funcionalidades:
-  a. Adicionar um novo usuário ao sistema, recebendo o nome como entrada.
-  b. Listar todos os usuários cadastrados.
+  * a. Adicionar um novo usuário ao sistema, recebendo o nome como entrada.
+  * b. Listar todos os usuários cadastrados.
 3. No programa principal (main), siga as etapas abaixo:
-  a. Solicite ao usuário a quantidade de usuários que deseja cadastrar.
-  b. Peça ao usuário para informar os nomes dos usuários, um por linha.
-  c. Após receber os nomes e cadastrar os usuários, liste os usuários cadastrados.
+  * a. Solicite ao usuário a quantidade de usuários que deseja cadastrar.
+  * b. Peça ao usuário para informar os nomes dos usuários, um por linha.
+  * c. Após receber os nomes e cadastrar os usuários, liste os usuários cadastrados.
 
 ## Entrada
 Um número inteiro representando a quantidade de usuários que o usuário deseja cadastrar.
