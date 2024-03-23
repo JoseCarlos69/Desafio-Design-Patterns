@@ -27,11 +27,9 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 | Entrada | Saída |
 | --- | --- |
-| 2
-Ada
-Linus | 1 - Ada
-2 - Linus|
-
+| 2 | 1 - Ada |
+| Ada | 2 - Linus |
+| Linus |  |
 
 Entrada	Saída
 2
